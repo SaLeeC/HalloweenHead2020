@@ -82,7 +82,6 @@ void usRead() {
   delay(1000);
 }
 
-
 void setup() 
 {
   myservo.attach(SERVO_PIN_A);  // attaches the servo on pin 9 to the servo object

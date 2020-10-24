@@ -11,6 +11,7 @@
 //   Teensy 2.0                    14            15             4
 //   Teensy++ 1.0 or 2.0           25            26            27
 //   Teensy LC & 3.x                 (all PWM pins are usable)
+
 #include <PWMServo.h>
 PWMServo myservo;  // create servo object to control a servo
 int myservoPos = 0;    // variable to store the servo position
@@ -91,7 +92,7 @@ void loop()
 {
   //Legge il sensore a ultrasuoni
   usRead();
-  Se la distanza misurata è minore a DistanzaMinima
+  //Se la distanza misurata è minore a DistanzaMinima
   if (usDistance < DistanzaMinima)
   {
     //Mappa la distanza fra i 160 e i 50 cm su un angolo da 0 a 179 gradi
